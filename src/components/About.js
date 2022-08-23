@@ -28,7 +28,7 @@ export default function About(props) {
 
   return (
     <>
-    <div className='container border rounded-4 my-3 p-5'  >
+    <div className='container border rounded-4 my-5 p-5'  >
         <h2 className={`text-${props.mode === "dark"?"light":"dark"}`}>About Us</h2>
         <div className="accordion" id="accordionExample" >
 
